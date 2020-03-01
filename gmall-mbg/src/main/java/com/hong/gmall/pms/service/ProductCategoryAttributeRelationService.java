@@ -1,0 +1,16 @@
+package com.hong.gmall.pms.service;
+
+import com.hong.gmall.pms.entity.ProductCategoryAttributeRelation;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+/**
+ * <p>
+ * 产品的分类和属性的关系表，用于设置分类筛选条件 服务类
+ * </p>
+ *
+ * @author Hch
+ * @since 2020-02-20
+ */
+public interface ProductCategoryAttributeRelationService extends IService<ProductCategoryAttributeRelation> {
+
+}
